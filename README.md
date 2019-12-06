@@ -50,4 +50,4 @@ python3 ./Canon-M10.py
 ```
 The GUI is then available on http://computer_ip:8081/
 
-<img src=https://github.com/emanuelelaface/Canon-M10/blob/master/screenshots/screenshot1.png></img>
+<img src=https://github.com/emanuelelaface/Canon-M10/blob/master/screenshots/screenshot-01.png></img>
