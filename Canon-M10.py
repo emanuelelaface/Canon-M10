@@ -23,8 +23,9 @@ class OpenCVVideoWidget(Image):
             xhr.open('GET', url, true);
             xhr.responseType = 'blob'
             xhr.onload = function(e){
-                var urlCreator = window.URL || window.webkitURL;
-                var imageUrl = urlCreator.createObjectURL(this.response);
+                urlCreator = window.URL || window.webkitURL;
+                urlCreator.revokeObjectURL(document.getElementById('%(id)s').src);
+                imageUrl = urlCreator.createObjectURL(this.response);
                 document.getElementById('%(id)s').src = imageUrl;
             }
             xhr.send();
