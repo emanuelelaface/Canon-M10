@@ -1,3 +1,5 @@
+The GUI is built around the REMI python library (https://github.com/dddomodossola/remi), a powerful tool to crate a pure-Python GUI that can run in the browser. This allows to to have directly the code working on computer and mobile devices.
+
 This program requires CHDK installed on the camera and several libraries to work.
 
 The instructions to install CHDK on the SD card of the Canon Camera are here:
